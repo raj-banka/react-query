@@ -10,9 +10,9 @@ const queryClient = new QueryClient();
 root.render(
   <React.StrictMode>
 
-    //Wrapped up within QueryClientProvider
+    {/* //Wrapped up within QueryClientProvider */}
     
-    <QueryClientProvider client={{queryClient}}>
+    <QueryClientProvider client={queryClient}>
     <App />
     </QueryClientProvider>
   </React.StrictMode>
